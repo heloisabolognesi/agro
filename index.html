@@ -1,0 +1,795 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AgroTech Pro - Agricultura de Próxima Geração</title>
+    <meta name="description" content="Inovação e excelência em agricultura sustentável. Tecnologia de ponta para o futuro do agronegócio.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <a href="#inicio" class="logo">
+                    <img src="./img/logo.png" alt="AgroTech Logo" class="logo-img">
+                    <span class="logo-text">AgroTech</span>
+                </a>
+
+                <!-- Desktop Navigation -->
+                <nav class="nav-desktop">
+                    <a href="#inicio" class="nav-link">Início</a>
+                    <a href="#sobre" class="nav-link">Sobre Nós</a>
+                    <a href="#produtos" class="nav-link">Produtos</a>
+                    <a href="#sustentabilidade" class="nav-link">Sustentabilidade</a>
+                    <a href="#fornecedores" class="nav-link">Fornecedores</a>
+                    <a href="#contato" class="nav-link">Contato</a>
+                </nav>
+
+                <!-- Mobile menu now uses CSS checkbox hack instead of JavaScript -->
+                <input type="checkbox" id="mobile-menu-toggle" class="mobile-menu-toggle">
+                <label for="mobile-menu-toggle" class="mobile-menu-btn" aria-label="Menu">
+                    <span class="hamburger"></span>
+                </label>
+
+                <!-- Mobile Navigation -->
+                <nav class="nav-mobile">
+                    <a href="#inicio" class="nav-link-mobile">Início</a>
+                    <a href="#sobre" class="nav-link-mobile">Sobre Nós</a>
+                    <a href="#produtos" class="nav-link-mobile">Produtos</a>
+                    <a href="#sustentabilidade" class="nav-link-mobile">Sustentabilidade</a>
+                    <a href="#fornecedores" class="nav-link-mobile">Fornecedores</a>
+                    <a href="#contato" class="nav-link-mobile">Contato</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="hero">
+        <div class="container">
+            <div class="hero-grid">
+                <!-- Left Content -->
+                <div class="hero-content">
+                   
+
+                    <!-- Main Heading -->
+                    <div class="hero-heading">
+                        <h1>
+                            Agricultura de
+                            <span class="text-primary">Próxima Geração</span>
+                        </h1>
+                        <div class="heading-underline"></div>
+                    </div>
+
+                    <!-- Description -->
+                    <p class="hero-description">
+                        Combinamos tecnologia avançada, práticas sustentáveis e expertise agronômica para entregar produtos de qualidade superior e resultados excepcionais.
+                    </p>
+
+                    <!-- Features List -->
+                    <div class="features-grid">
+                        <div class="feature-item">
+                            <div class="feature-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
+                                    <polyline points="22 4 12 14.01 9 11.01"/>
+                                </svg>
+                            </div>
+                            <span>Tecnologia IoT Integrada</span>
+                        </div>
+                        <div class="feature-item">
+                            <div class="feature-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
+                                    <polyline points="22 4 12 14.01 9 11.01"/>
+                                </svg>
+                            </div>
+                            <span>100% Rastreável</span>
+                        </div>
+                        <div class="feature-item">
+                            <div class="feature-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
+                                    <polyline points="22 4 12 14.01 9 11.01"/>
+                                </svg>
+                            </div>
+                            <span>Certificação Orgânica</span>
+                        </div>
+                        <div class="feature-item">
+                            <div class="feature-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
+                                    <polyline points="22 4 12 14.01 9 11.01"/>
+                                </svg>
+                            </div>
+                            <span>Análise de Solo AI</span>
+                        </div>
+                    </div>
+
+                    <!-- CTA Buttons -->
+                    <div class="hero-cta">
+                        <a href="#fornecedores" class="btn btn-primary">
+                            Tornar-se Fornecedor
+                            <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <line x1="5" y1="12" x2="19" y2="12"/>
+                                <polyline points="12 5 19 12 12 19"/>
+                            </svg>
+                        </a>
+                        <a href="#produtos" class="btn btn-outline">Ver Produtos</a>
+                    </div>
+                </div>
+
+                <!-- Right Visual -->
+                <div class="hero-visual">
+                    <div class="hero-image-card">
+                        <img src="./img/capa.jpg" alt="Campo agrícola moderno">
+                        <div class="hero-image-overlay"></div>
+                    </div>
+
+                    <!-- Floating Stats Cards -->
+                    <div class="stat-card stat-card-left">
+                        <div class="stat-icon stat-icon-primary">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/>
+                                <polyline points="17 6 23 6 23 12"/>
+                            </svg>
+                        </div>
+                        <div>
+                            <p class="stat-value">+45%</p>
+                            <p class="stat-label">Produtividade</p>
+                        </div>
+                    </div>
+
+                    <div class="stat-card stat-card-right">
+                        <div class="stat-icon stat-icon-secondary">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M12 2L2 7l10 5 10-5-10-5z"/>
+                                <path d="M2 17l10 5 10-5M2 12l10 5 10-5"/>
+                            </svg>
+                        </div>
+                        <div>
+                            <p class="stat-value stat-value-secondary">500+</p>
+                            <p class="stat-label">Hectares</p>
+                        </div>
+                    </div>
+
+                    <div class="hero-glow"></div>
+                </div>
+            </div>
+        </div>
+        <div class="hero-wave"></div>
+    </section>
+
+    <!-- About Section -->
+    <section id="sobre" class="section section-muted">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Sobre a AgroTech</h2>
+                <p class="section-description">
+                    Fundada com a missão de revolucionar a agricultura através de práticas sustentáveis, a AgroTech  combina tradição e inovação para produzir alimentos de qualidade superior enquanto preserva o meio ambiente para as próximas gerações.
+                </p>
+            </div>
+
+            <div class="values-grid">
+
+                <div class="value-card">
+                    <div class="value-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+                            <circle cx="9" cy="7" r="4"/>
+                            <path d="M23 21v-2a4 4 0 0 0-3-3.87"/>
+                            <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+                        </svg>
+                    </div>
+                    <h3 class="value-title">Comunidade</h3>
+                    <p class="value-description">Trabalhamos em parceria com agricultores locais e comunidades rurais.</p>
+                </div>
+
+                <div class="value-card">
+                    <div class="value-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="12" r="10"/>
+                            <circle cx="12" cy="12" r="6"/>
+                            <circle cx="12" cy="12" r="2"/>
+                        </svg>
+                    </div>
+                    <h3 class="value-title">Excelência</h3>
+                    <p class="value-description">Compromisso com a qualidade em cada etapa do processo produtivo.</p>
+                </div>
+
+                <div class="value-card">
+                    <div class="value-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6"/>
+                            <path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18"/>
+                            <path d="M4 22h16"/>
+                            <path d="M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22"/>
+                            <path d="M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22"/>
+                            <path d="M18 2H6v7a6 6 0 0 0 12 0V2Z"/>
+                        </svg>
+                    </div>
+                    <h3 class="value-title">Inovação</h3>
+                    <p class="value-description">Utilizamos tecnologia de ponta para otimizar nossa produção.</p>
+                </div>
+
+                <div class="value-card">
+                    <div class="value-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+                        </svg>
+                    </div>
+                    <h3 class="value-title">Sustentabilidade</h3>
+                    <p class="value-description">Práticas agrícolas que respeitam o meio ambiente e as futuras gerações.</p>
+                </div>
+            </div>
+
+            <div class="about-story">
+                <div class="about-image">
+                    <img src="./img/terras.jpg" alt="Nossa fazenda sustentável">
+                </div>
+                <div class="about-text">
+                    <h3 class="about-subtitle">Nossa História</h3>
+                    <p class="about-paragraph">
+                        Há mais de 20 anos, iniciamos nossa jornada com um sonho simples: criar uma fazenda que pudesse alimentar pessoas sem prejudicar o planeta. Hoje, somos referência em agricultura sustentável na região.
+                    </p>
+                    <p class="about-paragraph">
+                        Nossa equipe de agrônomos especializados trabalha diariamente para implementar as melhores práticas agrícolas, utilizando tecnologia de irrigação inteligente, rotação de culturas e manejo integrado de pragas.
+                    </p>
+                    <div class="about-stats">
+                        <div class="about-stat">
+                            <div class="about-stat-value">500+</div>
+                            <div class="about-stat-label">Hectares</div>
+                        </div>
+                        <div class="about-stat">
+                            <div class="about-stat-value">50+</div>
+                            <div class="about-stat-label">Colaboradores</div>
+                        </div>
+                        <div class="about-stat">
+                            <div class="about-stat-value">100%</div>
+                            <div class="about-stat-label">Sustentável</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="produtos" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Nossos Produtos</h2>
+                <p class="section-description">
+                    Cultivamos uma variedade de produtos agrícolas de alta qualidade, todos produzidos com práticas sustentáveis e respeito ao meio ambiente.
+                </p>
+            </div>
+
+            <div class="products-grid">
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="./img/graos.jpg" alt="Grãos Orgânicos">
+                        <div class="product-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M2 22h20"/>
+                                <path d="M3.77 10.77 2 9l2-4.5 1.26.71"/>
+                                <path d="M7.5 12.5 6 11l1-2.5L8.5 9"/>
+                                <path d="M10.5 15.5 9 14l1-2.5 1.5.5"/>
+                                <path d="M13.5 18.5 12 17l1-2.5 1.5.5"/>
+                                <path d="M16.5 21.5 15 20l1-2.5 1.5.5"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="product-content">
+                        <h3 class="product-title">Grãos Orgânicos</h3>
+                        <p class="product-description">Soja, milho e trigo cultivados sem agrotóxicos, com certificação orgânica.</p>
+                        <div class="product-badges">
+                            <span class="badge">Certificado Orgânico</span>
+                            <span class="badge">Não-GMO</span>
+                            <span class="badge">Alta Qualidade</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="./img/frutas.jpg" alt="Frutas Frescas">
+                        <div class="product-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M12 2a3 3 0 0 0-3 3c0 .5.12 1 .35 1.5a3 3 0 0 0-.35 1.5c0 .5.12 1 .35 1.5a3 3 0 0 0-.35 1.5c0 .5.12 1 .35 1.5a3 3 0 0 0-.35 1.5c0 .5.12 1 .35 1.5a3 3 0 0 0-.35 1.5c0 .5.12 1 .35 1.5a3 3 0 0 0-.35 1.5c0 .5.12 1 .35 1.5a3 3 0 0 0-.35 1.5c0 .5.12 1 .35 1.5a3 3 0 0 0-.35 1.5"/>
+                                <path d="M12 2a3 3 0 0 1 3 3c0 .5-.12 1-.35 1.5a3 3 0 0 1 .35 1.5c0 .5-.12 1-.35 1.5a3 3 0 0 1 .35 1.5c0 .5-.12 1-.35 1.5a3 3 0 0 1 .35 1.5c0 .5-.12 1-.35 1.5a3 3 0 0 1 .35 1.5c0 .5-.12 1-.35 1.5a3 3 0 0 1 .35 1.5c0 .5-.12 1-.35 1.5a3 3 0 0 1 .35 1.5"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="product-content">
+                        <h3 class="product-title">Frutas Frescas</h3>
+                        <p class="product-description">Maçãs, laranjas e outras frutas cultivadas com práticas sustentáveis.</p>
+                        <div class="product-badges">
+                            <span class="badge">Sem Agrotóxicos</span>
+                            <span class="badge">Colheita Diária</span>
+                            <span class="badge">Sabor Natural</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="./img/hor.jpg" alt="Hortaliças">
+                        <div class="product-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M2 22c1.25-.987 2.27-1.975 3.9-2.2a5.56 5.56 0 0 1 3.8 1.5 4 4 0 0 0 5.5.2 5 5 0 0 1 6.2 0 7 7 0 0 0 1.6 1"/>
+                                <path d="M2 22 17 7l4 4-15 15"/>
+                                <path d="M9.5 14.5 15 9"/>
+                                <path d="m2 2 20 20"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="product-content">
+                        <h3 class="product-title">Hortaliças</h3>
+                        <p class="product-description">Vegetais frescos e nutritivos, do campo direto para sua mesa.</p>
+                        <div class="product-badges">
+                            <span class="badge">Cultivo Hidropônico</span>
+                            <span class="badge">Livre de Químicos</span>
+                            <span class="badge">Frescor Garantido</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="./img/uvas.jpg" alt="Uvas Premium">
+                        <div class="product-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="8" cy="8" r="2"/>
+                                <circle cx="16" cy="8" r="2"/>
+                                <circle cx="12" cy="12" r="2"/>
+                                <circle cx="8" cy="16" r="2"/>
+                                <circle cx="16" cy="16" r="2"/>
+                                <circle cx="12" cy="20" r="2"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="product-content">
+                        <h3 class="product-title">Uvas Premium</h3>
+                        <p class="product-description">Uvas de mesa e para vinificação, cultivadas com técnicas tradicionais.</p>
+                        <div class="product-badges">
+                            <span class="badge">Variedades Selecionadas</span>
+                            <span class="badge">Cultivo Artesanal</span>
+                            <span class="badge">Qualidade Premium</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sustainability Section -->
+    <section id="sustentabilidade" class="section section-primary">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Sustentabilidade em Ação</h2>
+                <p class="section-description">
+                    Implementamos práticas agrícolas sustentáveis que garantem a produtividade enquanto preservamos o meio ambiente para as futuras gerações.
+                </p>
+            </div>
+
+            <div class="practices-grid">
+                <div class="practice-card">
+                    <div class="practice-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z"/>
+                        </svg>
+                    </div>
+                    <h3 class="practice-title">Irrigação Inteligente</h3>
+                    <p class="practice-description">Sistema de irrigação por gotejamento que economiza até 60% de água.</p>
+                </div>
+
+                <div class="practice-card">
+                    <div class="practice-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="12" r="5"/>
+                            <line x1="12" y1="1" x2="12" y2="3"/>
+                            <line x1="12" y1="21" x2="12" y2="23"/>
+                            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/>
+                            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/>
+                            <line x1="1" y1="12" x2="3" y2="12"/>
+                            <line x1="21" y1="12" x2="23" y2="12"/>
+                            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/>
+                            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/>
+                        </svg>
+                    </div>
+                    <h3 class="practice-title">Energia Solar</h3>
+                    <p class="practice-description">Painéis solares fornecem 80% da energia utilizada na fazenda.</p>
+                </div>
+
+                <div class="practice-card">
+                    <div class="practice-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/>
+                            <polyline points="7.5 4.21 12 6.81 16.5 4.21"/>
+                            <polyline points="7.5 19.79 7.5 14.6 3 12"/>
+                            <polyline points="21 12 16.5 14.6 16.5 19.79"/>
+                            <polyline points="3.27 6.96 12 12.01 20.73 6.96"/>
+                            <line x1="12" y1="22.08" x2="12" y2="12"/>
+                        </svg>
+                    </div>
+                    <h3 class="practice-title">Compostagem</h3>
+                    <p class="practice-description">Resíduos orgânicos transformados em adubo natural de alta qualidade.</p>
+                </div>
+
+                <div class="practice-card">
+                    <div class="practice-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M12 2a3 3 0 0 0-3 3c0 .5.12 1 .35 1.5a3 3 0 0 0-.35 1.5c0 .5.12 1 .35 1.5a3 3 0 0 0-.35 1.5c0 .5.12 1 .35 1.5a3 3 0 0 0-.35 1.5c0 .5.12 1 .35 1.5a3 3 0 0 0-.35 1.5c0 .5.12 1 .35 1.5a3 3 0 0 0-.35 1.5c0 .5.12 1 .35 1.5a3 3 0 0 0-.35 1.5"/>
+                        </svg>
+                    </div>
+                    <h3 class="practice-title">Rotação de Culturas</h3>
+                    <p class="practice-description">Técnica que preserva os nutrientes do solo e reduz pragas naturalmente.</p>
+                </div>
+
+                <div class="practice-card">
+                    <div class="practice-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M9.59 4.59A2 2 0 1 1 11 8H2m10.59 11.41A2 2 0 1 0 14 16H2m15.73-8.27A2.5 2.5 0 1 1 19.5 12H2"/>
+                        </svg>
+                    </div>
+                    <h3 class="practice-title">Zero Emissões</h3>
+                    <p class="practice-description">Compromisso com a neutralidade de carbono em todas as operações.</p>
+                </div>
+
+                <div class="practice-card">
+                    <div class="practice-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M12 2v20M2 12h20"/>
+                            <path d="m6 6 12 12M6 18 18 6"/>
+                        </svg>
+                    </div>
+                    <h3 class="practice-title">Reflorestamento</h3>
+                    <p class="practice-description">Plantio de árvores nativas para preservação da biodiversidade local.</p>
+                </div>
+            </div>
+
+            <div class="certifications">
+                <div class="certifications-text">
+                    <h3 class="certifications-title">Certificações e Reconhecimentos</h3>
+                    <div class="certifications-list">
+                        <div class="certification-item">
+                            <div class="certification-dot"></div>
+                            <div>
+                                <h4 class="certification-name">Certificação Orgânica</h4>
+                                <p class="certification-desc">Reconhecida por órgãos nacionais e internacionais</p>
+                            </div>
+                        </div>
+                        <div class="certification-item">
+                            <div class="certification-dot"></div>
+                            <div>
+                                <h4 class="certification-name">Prêmio Agricultura Sustentável</h4>
+                                <p class="certification-desc">Melhor fazenda sustentável da região em 2024</p>
+                            </div>
+                        </div>
+                        <div class="certification-item">
+                            <div class="certification-dot"></div>
+                            <div>
+                                <h4 class="certification-name">ISO 14001</h4>
+                                <p class="certification-desc">Gestão ambiental certificada internacionalmente</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="certifications-image">
+                    <img src="./img/terra.jpg" alt="Práticas sustentáveis">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Vendor Registration Section -->
+    <section id="fornecedores" class="section">
+        <div class="container">
+            <div class="section-header">
+                <div class="vendor-icon-wrapper">
+                    <svg class="vendor-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/>
+                        <polyline points="9 22 9 12 15 12 15 22"/>
+                    </svg>
+                </div>
+                <h2 class="section-title">Portal de Fornecedores</h2>
+                <p class="section-description">
+                    Seja um parceiro da AgroTech . Cadastre-se para fornecer produtos e serviços ou faça login para acessar sua conta.
+                </p>
+            </div>
+
+            <!-- Tabs now use CSS radio buttons instead of JavaScript -->
+            <div class="vendor-card">
+                <input type="radio" name="vendor-tab" id="tab-login" class="tab-radio" checked>
+                <input type="radio" name="vendor-tab" id="tab-register" class="tab-radio">
+                
+                <div class="tabs">
+                    <label for="tab-login" class="tab-btn">
+                        <svg class="tab-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M15 3h4a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2h-4"/>
+                            <polyline points="10 17 15 12 10 7"/>
+                            <line x1="15" y1="12" x2="3" y2="12"/>
+                        </svg>
+                        Login
+                    </label>
+                    <label for="tab-register" class="tab-btn">
+                        <svg class="tab-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M16 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+                            <circle cx="8.5" cy="7" r="4"/>
+                            <line x1="20" y1="8" x2="20" y2="14"/>
+                            <line x1="23" y1="11" x2="17" y2="11"/>
+                        </svg>
+                        Cadastro
+                    </label>
+                </div>
+
+                <div class="tab-content" data-tab="login">
+                    <form class="vendor-form">
+                        <div class="form-group">
+                            <label for="login-email" class="form-label">E-mail</label>
+                            <input type="email" id="login-email" class="form-input" placeholder="seu@email.com" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="login-password" class="form-label">Senha</label>
+                            <input type="password" id="login-password" class="form-input" placeholder="••••••••" required>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full">Entrar</button>
+                        <p class="form-footer">
+                            Esqueceu sua senha? <a href="#" class="link-btn">Recuperar senha</a>
+                        </p>
+                    </form>
+                </div>
+
+                <div class="tab-content" data-tab="register">
+                    <form class="vendor-form">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="register-name" class="form-label">Nome Completo</label>
+                                <input type="text" id="register-name" class="form-input" placeholder="João Silva" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="register-company" class="form-label">Empresa</label>
+                                <input type="text" id="register-company" class="form-input" placeholder="Nome da Empresa" required>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="register-email" class="form-label">E-mail</label>
+                                <input type="email" id="register-email" class="form-input" placeholder="seu@email.com" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="register-phone" class="form-label">Telefone</label>
+                                <input type="tel" id="register-phone" class="form-input" placeholder="(11) 99999-9999" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="register-cnpj" class="form-label">CNPJ</label>
+                            <input type="text" id="register-cnpj" class="form-input" placeholder="00.000.000/0000-00" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="register-products" class="form-label">Produtos/Serviços Oferecidos</label>
+                            <textarea id="register-products" class="form-textarea" rows="4" placeholder="Descreva os produtos ou serviços que sua empresa oferece..." required></textarea>
+                        </div>
+                        <div class="form-group">
+                            <label for="register-password" class="form-label">Senha</label>
+                            <input type="password" id="register-password" class="form-input" placeholder="••••••••" required>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full">Cadastrar</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contato" class="section section-muted">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Entre em Contato</h2>
+                <p class="section-description">
+                    Estamos prontos para atender você. Entre em contato conosco para saber mais sobre nossos produtos e serviços.
+                </p>
+            </div>
+
+            <div class="contact-grid">
+                <div class="contact-form-card">
+                    <h3 class="contact-form-title">Envie uma Mensagem</h3>
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="contact-name" class="form-label">Nome</label>
+                                <input type="text" id="contact-name" class="form-input" placeholder="Seu nome" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="contact-email" class="form-label">E-mail</label>
+                                <input type="email" id="contact-email" class="form-input" placeholder="seu@email.com" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="contact-phone" class="form-label">Telefone</label>
+                            <input type="tel" id="contact-phone" class="form-input" placeholder="(11) 99999-9999">
+                        </div>
+                        <div class="form-group">
+                            <label for="contact-subject" class="form-label">Assunto</label>
+                            <input type="text" id="contact-subject" class="form-input" placeholder="Como podemos ajudar?" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="contact-message" class="form-label">Mensagem</label>
+                            <textarea id="contact-message" class="form-textarea" rows="5" placeholder="Escreva sua mensagem aqui..." required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full">Enviar Mensagem</button>
+                    </form>
+                </div>
+
+                <div class="contact-info">
+                    <div class="contact-info-card">
+                        <div class="contact-info-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                                <circle cx="12" cy="10" r="3"/>
+                            </svg>
+                        </div>
+                        <div>
+                            <h4 class="contact-info-title">Endereço</h4>
+                            <p class="contact-info-text">Rodovia Rural KM 45, Zona Rural<br>Interior de São Paulo, SP</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-info-card">
+                        <div class="contact-info-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+                            </svg>
+                        </div>
+                        <div>
+                            <h4 class="contact-info-title">Telefone</h4>
+                            <p class="contact-info-text">(11) 3456-7890<br>(11) 98765-4321</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-info-card">
+                        <div class="contact-info-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                                <polyline points="22,6 12,13 2,6"/>
+                            </svg>
+                        </div>
+                        <div>
+                            <h4 class="contact-info-title">E-mail</h4>
+                            <p class="contact-info-text">contato@agrotech.com.br<br>vendas@agrotech.com.br</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-info-card">
+                        <div class="contact-info-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="12" cy="12" r="10"/>
+                                <polyline points="12 6 12 12 16 14"/>
+                            </svg>
+                        </div>
+                        <div>
+                            <h4 class="contact-info-title">Horário</h4>
+                            <p class="contact-info-text">Segunda a Sexta: 8h às 18h<br>Sábado: 8h às 12h</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="map-container">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.1976!2d-46.6333!3d-23.5505!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjPCsDMzJzAxLjguOCJzIDQ2rCsMzcnNTkuOSJX!5e0!3m2!1spt-BR!2sbr!4v1234567890"
+                    width="100%"
+                    height="400"
+                    style="border:0;"
+                    allowfullscreen=""
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"
+                    title="Localização AgroTech "
+                ></iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <!-- Brand -->
+                <div class="footer-brand">
+                    <div class="footer-logo">
+                        <img src="./img/logo.png" alt="AgroTech Pro Logo" class="footer-logo-img">
+                        <span class="footer-logo-text">AgroTech </span>
+                    </div>
+                    <p class="footer-description">
+                        Inovação e excelência em agricultura sustentável. Tecnologia de ponta para o futuro do agronegócio.
+                    </p>
+                    <div class="footer-social">
+                        <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="Facebook">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/>
+                            </svg>
+                        </a>
+                        <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="Instagram">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+                                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
+                                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
+                            </svg>
+                        </a>
+                        <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="LinkedIn">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/>
+                                <rect x="2" y="9" width="4" height="12"/>
+                                <circle cx="4" cy="4" r="2"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Quick Links -->
+                <div class="footer-links">
+                    <h3 class="footer-links-title">Links Rápidos</h3>
+                    <ul class="footer-links-list">
+                        <li><a href="#inicio" class="footer-link">Início</a></li>
+                        <li><a href="#sobre" class="footer-link">Sobre Nós</a></li>
+                        <li><a href="#produtos" class="footer-link">Produtos</a></li>
+                        <li><a href="#sustentabilidade" class="footer-link">Sustentabilidade</a></li>
+                    </ul>
+                </div>
+
+                <!-- Services -->
+                <div class="footer-links">
+                    <h3 class="footer-links-title">Serviços</h3>
+                    <ul class="footer-links-list">
+                        <li><a href="#fornecedores" class="footer-link">Portal de Fornecedores</a></li>
+                        <li><a href="#contato" class="footer-link">Contato</a></li>
+                        <li><button class="footer-link">Política de Privacidade</button></li>
+                        <li><button class="footer-link">Termos de Uso</button></li>
+                    </ul>
+                </div>
+
+                <!-- Contact -->
+                <div class="footer-contact">
+                    <h3 class="footer-links-title">Contato</h3>
+                    <ul class="footer-contact-list">
+                        <li class="footer-contact-item">
+                            <svg class="footer-contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                                <circle cx="12" cy="10" r="3"/>
+                            </svg>
+                            <span>Rodovia Rural KM 45, Zona Rural<br>Interior de SP</span>
+                        </li>
+                        <li class="footer-contact-item">
+                            <svg class="footer-contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+                            </svg>
+                            <span>(11) 3456-7890</span>
+                        </li>
+                        <li class="footer-contact-item">
+                            <svg class="footer-contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                                <polyline points="22,6 12,13 2,6"/>
+                            </svg>
+                            <span>contato@agrotech.com.br</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <!-- Static year instead of JavaScript -->
+                <p class="footer-copyright">
+                    © 2025 AgroTech. Todos os direitos reservados.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+
+</body>
+</html>
